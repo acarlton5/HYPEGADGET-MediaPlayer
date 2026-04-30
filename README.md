@@ -1,6 +1,15 @@
-# Media Player Widget
+# HYPEGADGET-MediaPlayer
 
-A simple media player desktop widget.
+Desktop media player gadget for HypeShell.
 
-Package type: `HYPEGADGET`  
-HypeStore id: `mediaPlayerWidget`
+This is an installable `HYPEGADGET` package. HypeStore should catalog it with:
+
+```json
+{
+  "id": "mediaPlayerWidget",
+  "packageType": "HYPEGADGET",
+  "repo": "https://github.com/acarlton5/HYPESHELL.git",
+  "branch": "main",
+  "path": "HYPEGADGET-MediaPlayer"
+}
+```
